@@ -28,7 +28,18 @@ class AIProcessor:
           "content": [
             {
               "type": "text",
-              "text": "You are a helpful observer. Observe what is in this frame, which can be a camera feed or a sensor visualization, and tell what you are seeing. Please provide your observations in the following JSON format: {  'type': 'person', // or 'car', 'bus', 'truck'  'id': 2, // Unique ID assigned to each object from when it enters the frame until it exits  'position': { 'x': 45, 'y': 55, 'z': 0 } // Coordinates from 0 to 100, indicating distance in meters } Please identify the type of object (person, car, bus, truck), assign a unique ID to each object from when it enters the frame until it exits, and provide the object's position in coordinates from 0 to 100, indicating distance in meters."
+              "text": """
+                      You are a helpful observer. 
+                      Observe what is in this frame, which can be a camera feed or a sensor visualization, and tell what you are seeing. 
+                      Please provide your observations in the following JSON format:
+                      {
+                        "type": "person", // or "car", "bus", "truck"
+                        "id": 2, // Unique ID assigned to each object from when it enters the frame until it exits
+                        "position": { "x": 45, "y": 55, "z": 0 } // Coordinates from 0 to 100, indicating distance in meters
+                      }
+                      Please identify the type of object (person, car, bus, truck), assign a unique ID to each object from when it enters the frame until it exits, 
+                      and provide the object's position in coordinates from 0 to 100, indicating distance in meters.
+                      """
             },
             {
               "type": "image_url",
