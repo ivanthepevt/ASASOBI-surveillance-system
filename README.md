@@ -159,7 +159,3 @@ Once the system is running, the processed JSON data will be streamed to the WebS
 ### **Support**
 
 For any issues or questions, feel free to open an issue on GitHub or contact the project maintainers.
-
----
-
-This `README.md` now serves as the full instruction guide for setting up, configuring, and using ASASOBI. You can upload this codebase and documentation directly to GitHub or any other repository for easy deployment and user access. Let me know if you need any additional modifications!
