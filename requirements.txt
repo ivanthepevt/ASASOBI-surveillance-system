@@ -1,4 +1,7 @@
 opencv-python
 websockets
+websocket-client
+pywin32
+pypiwin32
 openai
 numpy
